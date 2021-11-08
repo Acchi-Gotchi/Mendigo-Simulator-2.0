@@ -1633,7 +1633,7 @@ const eventosArmados = {
       (cliquesTotais == 2880 && seusItens.includes(itens[18]))
     ) {
       alert(
-        `Você já tem uma ${itens[18].nome}, você a doa para os outros mendigos, eles te dão dinheiro como agradecimento`
+        `Você já tem uma ${itens[18].nome}, você a doa para os outros mendigos.`
       )
     }
   },
