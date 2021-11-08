@@ -2500,7 +2500,7 @@ function finalD() {
       `Seu mendigo acaba sendo preso por corrupção, lavagem de dinheiro e paraísos fiscais, mesmo não sendo comprovado se ele roubou de fato ou não.`
     )
     alert(
-      `Vanderlei é um herói patriota, sua história merece ficar gravada nos nos corações do povo brasileiro, apesar destas denuncias referidas a este grande homem.`
+      `Vanderlei é um herói patriota, sua história merece ficar gravada nos corações do povo brasileiro, apesar destas denuncias referidas a este grande homem.`
     )
     alert(`Obrigado por jogar meu primeiro jogo! ^w^ -Acchi_Gotchi`)
     let textoNaTela = ''
