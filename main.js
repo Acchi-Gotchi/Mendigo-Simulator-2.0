@@ -1672,7 +1672,7 @@ const eventosArmados = {
         `Você descobre um saque inacreditável do FGTS pra fazer, no meio do imbróglio todo de ser escurraçado de onde morava, você esqueceu desse detalhe de desempregado.`
       )
       let FGTS = parseFloat(
-        (20202 * (Math.random() * (0.8 - 0.4) + 0.4) * 1.4).toFixed(2)
+        (20202 * (Math.random() * (0.6 - 0.3) + 0.3) * 1.25).toFixed(2)
       )
       dinheiro += FGTS
       cliquesDiarios += 4
@@ -2152,7 +2152,6 @@ function comprarItem() {
           `Você comprou ${itens[19].nome}. Você comprou um de seus objetivos, falta o carro.`
         )
         seusItens.push(itens[19])
-        seusMultiplicadores.push(itens[19].multiplicador)
         loja()
       } else if (ObjetoSelecionado == itens[19].nome) {
         alert(`Facilitaria muito ter uma...`)
@@ -2167,7 +2166,6 @@ function comprarItem() {
           `Você comprou ${itens[20].nome}. Não sei como vai andar sem gasolina.`
         )
         seusItens.push(itens[20])
-        seusMultiplicadores.push(itens[20].multiplicador)
         loja()
       } else if (ObjetoSelecionado == itens[20].nome) {
         alert(`Não é o Celta`)
