@@ -1973,7 +1973,7 @@ function comprarItem() {
         dinheiro -= itens[1].custo
         dinheiro = parseFloat(dinheiro.toFixed(2))
         alert(
-          `Você comprou ${itens[1].nome}. Agora você pode agora pensar em comprar uma ${itens[0].nome} para anunciar sua mendigada!`
+          `Você comprou ${itens[1].nome}. Agora você pode pensar em comprar uma ${itens[0].nome} para anunciar sua mendigada!`
         )
         seusItens.push(itens[1])
         seusMultiplicadores.push(itens[1].multiplicador)
