@@ -6,17 +6,15 @@
 }
 html {
   margin: 5rem;
+  max-height: 100vh;
 }
-#iniciar {
-  margin: 25rem;
-}
+
 body {
   margin: 0rem;
   text-align: center;
   transition: 300ms;
-  height: 100vh;
+  height: 10vh;
   background: #59a9c9;
-  overflow: hidden;
 }
 button {
   transition: 300ms;
@@ -167,4 +165,35 @@ ul {
 }
 .tarde ::-webkit-scrollbar-button {
   display: none;
+}
+@media (max-width: 737px) {
+  body {
+    overflow: auto;
+    height: 10vh;
+  }
+  .StandardAspectRatio {
+    display: grid;
+  }
+  button {
+    transition: 300ms;
+    text-align: center;
+    margin: 0;
+    margin-block: 5%;
+    padding-block: 2rem;
+    padding-inline: 5rem;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 2px 4px 15px;
+    border: black;
+    border-radius: 3.5px;
+  }
+  button:hover {
+    background: #2d7ec0;
+    color: white;
+    box-shadow: 4px 8px 30px black;
+    padding-block: 2.3rem;
+    padding-inline: 4.6rem;
+    border: black;
+    border-radius: 2px;
+  }
 }
