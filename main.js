@@ -1,7 +1,3 @@
-// vale lembrar que se tiver uma funcao e tu digitar let com o mesmo nome de uma let ou var que tiver por fora, ele sera uma nova let completamente diferente.
-
-//dentro do objeto n precisa digitar function antes da function
-
 // resources section
 const multiplicadoresPerma = {
   dormir: 2.27,
@@ -1819,6 +1815,7 @@ function ocultarTexto() {
 
 function mainGame() {
   let textoNaTela = ''
+  textoNaTela += `<div class="StandardAspectRatio">`
   textoNaTela += `<h3 id="quantoEuTenho">${dinheiro} R$</h3>`
   textoNaTela += '<button onclick="mendigar()">Mendigar</button>'
   textoNaTela += '<button onclick="loja()">Loja</button>'
@@ -1828,6 +1825,7 @@ function mainGame() {
   textoNaTela += '<div class="botaoRodape">'
   textoNaTela += '<button onclick="dormir()">Dormir</button>'
   textoNaTela += '</div>'
+  textoNaTela += `</div>`
   document.body.innerHTML = textoNaTela
   // mecanicas.assaltadoAcordadoIndicador()
 }
@@ -2500,7 +2498,7 @@ function finalD() {
       `Seu mendigo acaba sendo preso por corrupção, lavagem de dinheiro e paraísos fiscais, mesmo não sendo comprovado se ele roubou de fato ou não.`
     )
     alert(
-      `Vanderlei é um herói patriota, sua história merece ficar gravada nos corações do povo brasileiro, apesar destas denuncias referidas a este grande homem.`
+      `Vanderlei é um herói patriota, sua história merece ficar gravada nos nos corações do povo brasileiro, apesar destas denuncias referidas a este grande homem.`
     )
     alert(`Obrigado por jogar meu primeiro jogo! ^w^ -Acchi_Gotchi`)
     let textoNaTela = ''
